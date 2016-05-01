@@ -1,28 +1,68 @@
-body {background-color: #D3D3D3; position: relative;}
+html {height: 100%;}
+body {background-color: #D3D3D3; height: 100%;}
 
 .main {background-color: #fff;
 padding-top: 35px;
-margin-left: 200px; 
-margin-right: 200px;
+margin: 0 auto;
+width: 50%;
 font-family: "Oswald", serif;
-padding-bottom: 300px;
-position: relative;
-border-radius: 8px;}
-
-div {position: relative;}
+height: 99%;
+border-radius: 8px;
+;}
 
 .head {font-family: "Amatic SC", serif; font-size: 2.2em; padding-bottom: 25px; text-align: center;}
 
-.textbox {padding-bottom: 25px; font-size: .80rem; margin-left: -10px; }
-.textbox input[type="text"] {width:175px;} 
+.textbox {padding-bottom: 20px; font-size: .80rem;}
+.textbox input[type="text"] {width:180px; height: 30px;} 
 
-ul {padding-left: 41%; width: auto;}
-li {list-style: none; padding-bottom: 5px;}
+.content {
+  width: 200px;
+  margin: 25px auto;
+  padding: 5px;
+  
+  border-radius: 5px;
+  background-color: #fff;
 
-a {text-decoration: none; color: #000;}
-
-.fa.fa-trash.fa-lg {vertical-align: middle;}
-
-.strikethrough:checked + span{
-  text-decoration:line-through
 }
+label {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  margin: 5px 0 0;
+  border-radius: 5px;
+}
+label:first-child {
+  margin: 0;
+}
+label:hover {
+  background-color: #F0F0F0;
+}
+label input {
+  display: none;
+}
+label .fake-check {
+  display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url('http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/unchecked_checkbox.png') no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin-right: 5px;
+}
+label input:checked + .fake-check {
+  background-image: url("http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/checked_checkbox.png");
+}
+label input:checked + .fake-check + span {
+  text-decoration: line-through; color: red;
+}
+label input:checked ~ * {
+  opacity: 0.5;
+}
+label .delete {
+  float: right;
+  width: 16px; height: 16px;
+  background: url("http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/trash.png") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  vertical-align: middle; margin-top: 2.5px;
+}
+
+
