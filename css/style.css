@@ -16,17 +16,14 @@ div {position: relative;}
 p {text-align: center; padding-bottom: 8px;}
 
 .textbox {padding-bottom: 25px; font-size: .80rem; margin-left: -10px; }
-.textbox input[type="text"] {
-    width:175px;
-}
-.btn {margin-left: 45%; margin-bottom: 10px; font-size: .80rem; border-radius: 8px; }
+.textbox input[type="text"] {width:175px;} 
+
+.btn { background-color: #ECECEC; margin-left: 45%; margin-bottom: 10px; font-size: .80rem; border-radius: 8px; }
 
 ul {padding-left: 41%; width: auto;}
 li {list-style: none; padding-bottom: 5px;}
 
-input {position: relative;}
+
 
 .fa.fa-trash.fa-lg {vertical-align: middle;}
 
-
-@media screen and (max-width: 320px) { @viewport { width: 320px; } }
