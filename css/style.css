@@ -21,8 +21,11 @@ p {text-align: center; padding-bottom: 8px;}
 .btn {margin-left: 45%; margin-bottom: 10px; font-size: .80rem; position: inherit;}
 
 ul {padding-left: 41%; width: auto;}
-li {list-style: none}
+li {list-style: none; padding-bottom: 5px;}
 
 input {position: relative;}
+
+.fa.fa-trash.fa-lg {vertical-align: middle;}
+
 
 @media screen and (max-width: 320px) { @viewport { width: 320px; } }
