@@ -13,17 +13,16 @@ div {position: relative;}
 
 .head {font-family: "Amatic SC", serif; font-size: 2.2em; padding-bottom: 25px; text-align: center;}
 
-p {text-align: center; padding-bottom: 8px;}
-
 .textbox {padding-bottom: 25px; font-size: .80rem; margin-left: -10px; }
 .textbox input[type="text"] {width:175px;} 
-
-.btn { background-color: #ECECEC; margin-left: 45%; margin-bottom: 10px; font-size: .80rem; border-radius: 8px; }
 
 ul {padding-left: 41%; width: auto;}
 li {list-style: none; padding-bottom: 5px;}
 
-
+a {text-decoration: none; color: #000;}
 
 .fa.fa-trash.fa-lg {vertical-align: middle;}
 
+.strikethrough:checked + span{
+  text-decoration:line-through
+}
