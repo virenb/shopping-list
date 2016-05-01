@@ -6,7 +6,8 @@ margin-left: 200px;
 margin-right: 200px;
 font-family: "Oswald", serif;
 padding-bottom: 300px;
-position: relative;}
+position: relative;
+border-radius: 8px;}
 
 div {position: relative;}
 
@@ -18,7 +19,7 @@ p {text-align: center; padding-bottom: 8px;}
 .textbox input[type="text"] {
     width:175px;
 }
-.btn {margin-left: 45%; margin-bottom: 10px; font-size: .80rem; position: inherit;}
+.btn {margin-left: 45%; margin-bottom: 10px; font-size: .80rem; border-radius: 8px; }
 
 ul {padding-left: 41%; width: auto;}
 li {list-style: none; padding-bottom: 5px;}
