@@ -1,3 +1,4 @@
+* {margin: 0; padding: 0;}
 html {height: 100%;}
 body {background-color: #D3D3D3; height: 100%;}
 
@@ -12,18 +13,12 @@ border-radius: 8px;
 
 .head {font-family: "Amatic SC", serif; font-size: 2.2em; padding-bottom: 25px; text-align: center;}
 
-.textbox {padding-bottom: 20px; font-size: .80rem;}
-.textbox input[type="text"] {width:180px; height: 30px;} 
+.tbox {text-align: center;}
 
-.content {
-  width: 200px;
-  margin: 25px auto;
-  padding: 5px;
-  
-  border-radius: 5px;
-  background-color: #fff;
+ul {text-align: center;}
+ul li {list-style: none;}
 
-}
+.content {width: 200px; margin: 25px auto; padding: 5px; border-radius: 5px; background-color: #fff;}
 label {
   display: block;
   padding: 5px;
@@ -45,13 +40,15 @@ label .fake-check {
   display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url('http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/unchecked_checkbox.png') no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
-  margin-right: 5px;
+  float: left; 
 }
+
+
 label input:checked + .fake-check {
   background-image: url("http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/checked_checkbox.png");
 }
 label input:checked + .fake-check + span {
-  text-decoration: line-through; color: red;
+  text-decoration: line-through; color: #E50000;
 }
 label input:checked ~ * {
   opacity: 0.5;
@@ -64,5 +61,6 @@ label .delete {
   background-size: cover;
   vertical-align: middle; margin-top: 2.5px;
 }
+
 
 
