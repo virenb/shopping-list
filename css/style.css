@@ -40,7 +40,7 @@ label .fake-check {
   display: inline-block; vertical-align: middle; width: 16px; height: 16px; background: url('http://findicons.com/files/icons/2711/free_icons_for_windows8_metro/32/unchecked_checkbox.png') no-repeat center center;
   -webkit-background-size: cover;
   background-size: cover;
-  float: left; 
+  float: left;
 }
 
 
